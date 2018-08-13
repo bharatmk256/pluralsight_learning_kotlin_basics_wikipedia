@@ -12,7 +12,7 @@ class ArticalDetailActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_artical_detail)
 
-        setSupportActionBar(toolbar);
+        setSupportActionBar(toolbar)
         supportActionBar!!.setDisplayHomeAsUpEnabled(true);
     }
 
